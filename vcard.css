@@ -1,0 +1,100 @@
+body{
+    /*display: flex;
+    align-content: center;*/
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+/*.princ{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}*/
+.photo{
+    height: 200px;
+    margin-top: 50px;
+    
+}
+/*.bouton{
+    border: 5px solid rgb(225, 16, 16);
+    border-radius: 20px;
+}*/
+button{
+
+}
+.but1{
+    border-radius: 30px;
+    margin: 6px 6px 6px 6px;
+    padding: 20px;
+    width: 150px;
+    background-color: blue;
+    border: 0px;
+} 
+.but2{
+    border-radius: 30px;
+    margin: 6px 6px 6px 6px;
+    padding: 20px;
+    width: 150px;
+    border: 2px solid black;
+} 
+
+.haut{
+    justify-content: space-around;
+    margin-top:120pX ;
+    margin-left: 12px;
+}
+.div1{
+    display: flex;
+    background-color: blue;
+    position: relative;
+    width: 400px;
+    z-index: 5;
+    margin: -60px;
+    color: white;
+}
+ div.mail.reseau{
+    margin: 6px;
+    justify-content:flex-end;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+a:link{
+    justify-content: space-between;
+}
+.div2{
+    display: flex;
+    height: 500px;
+    position: relative;
+    z-index: 100;
+}
+.div3{
+ 
+    display: inline-block;
+    justify-content: flex-end;
+    position: relative;
+    font-weight: 100px;
+    margin-left: 80px;
+    width: 30px;
+    height: 200px;
+
+}
+ hr{
+    font-size: 60%;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+}
+/*.ligne { 
+    border-left: 8px solid black; 
+    height: 400px; 
+    display: inline-block;
+    } */
